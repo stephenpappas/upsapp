@@ -1,0 +1,23 @@
+@extends('home')
+
+@section('title', '| Edit Profile')
+
+@section('content')
+<div class="row">
+<div class="col-md-8 col-md-offset-2">
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h3 class="panel-title">Edit User Profile</h3>
+        </div>
+        <div class="panel-body">
+            <div class="text-success">
+                Your profile settings have been successfully updated!
+            </div>
+            <div>
+                Click <a href="{{ route('home') }}">here</a> to return to the dashboard.
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+@endsection
